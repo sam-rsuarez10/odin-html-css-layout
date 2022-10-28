@@ -19,6 +19,7 @@ ul {
 
 .bottom-header__container {
     display: flex;
+    justify-content: space-between;
 }
 
 .header-info__container {
@@ -32,3 +33,13 @@ ul {
     justify-content: space-around;
     gap: 2rem;
 }
+
+.header-img__container {
+    width: 15rem;
+    height: 10rem;
+    background: url(./assets/img/space.jpg) no-repeat center / cover;
+}
+
+
+
+

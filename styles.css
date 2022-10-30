@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto' sans-serif;
+}
+
 a{
     text-decoration: none;
 }
@@ -6,10 +10,15 @@ ul {
     list-style: none;
 }
 
-.header {
+header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0 15rem;
 }
 
 .up-header__container{
@@ -35,11 +44,34 @@ ul {
 }
 
 .header-img__container {
-    width: 15rem;
-    height: 10rem;
+    width: 25rem;
+    height: 20rem;
     background: url(./assets/img/space.jpg) no-repeat center / cover;
 }
 
+.header-logo__container  h3{
+    font-size: 24px;
+}
 
+.header-link a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-info__container h2 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button{
+    width: 6rem;
+    height: 2rem;
+    background-color: #3882F6;
+}
+
+button a {
+    color: #F9FAF8;
+    font-weight: bold;
+}
 
 

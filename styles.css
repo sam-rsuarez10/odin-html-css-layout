@@ -19,22 +19,28 @@ header {
     color: #F9FAF8;
     margin: 0;
     padding: 0 15rem;
+    gap: 3rem;
 }
 
 .up-header__container{
     display: flex;
     justify-content: space-between;
+    margin-top: 0.75rem;
 }
 
 .bottom-header__container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5rem;
+    gap: 2rem;
 }
 
 .header-info__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 1;
+    align-self: flex-start;
 }
 
 .header-link {
@@ -44,9 +50,8 @@ header {
 }
 
 .header-img__container {
-    width: 25rem;
-    height: 20rem;
     background: url(./assets/img/space.jpg) no-repeat center / cover;
+    flex: 1;
 }
 
 .header-logo__container  h3{
@@ -61,6 +66,7 @@ header {
 .header-info__container h2 {
     font-size: 48px;
     font-weight: bolder;
+    margin: 0;
 }
 
 button{

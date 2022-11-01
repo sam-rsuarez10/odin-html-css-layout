@@ -1,5 +1,7 @@
 body {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -26,6 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 0.75rem;
+    gap: 46.5rem;
 }
 
 .bottom-header__container {

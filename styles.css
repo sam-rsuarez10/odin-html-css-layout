@@ -128,4 +128,22 @@ button a {
 
 .quote__section {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 30rem;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
 }

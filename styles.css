@@ -28,7 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 0.75rem;
-    gap: 46.5rem;
+    gap: 56.5rem;
 }
 
 .bottom-header__container {
@@ -146,4 +146,40 @@ button a {
     align-self: flex-end;
     font-weight: bold;
     font-size: 20px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 25rem;
+    color: white;
+}
+
+.sign-up__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    background-color: #3882F6;
+    padding: 4rem 7rem;
+    border-radius: 0.75rem;
+}
+
+.sign-up__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sign-up__info h4 {
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#sign-up {
+    color: white;
+    border: 0.05rem solid white;
 }
